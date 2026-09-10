@@ -1,3 +1,6 @@
+ body  {
+  background: rgb(245, 247, 251);
+ }
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -181,4 +184,22 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+#root {
+ background: none !important;
+ border: none !important;
+ text-align: none !important;
+}
+
+.excursion-description {
+  margin: 0 auto;
+  scroll-margin-top: 1rem;
+}
+
+h2{
+ margin-bottom: 1rem;
+  color: #173b35;
+  font-size: 1.5rem;
+  text-align: center;
 }

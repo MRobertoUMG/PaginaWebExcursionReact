@@ -1,0 +1,100 @@
+.excursion-book {
+  width: min(100% - 2rem, 680px);
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+  scroll-margin-top: 1rem;
+}
+
+.excursion-book h2 {
+  margin-bottom: 0.5rem;
+  color: #173b35;
+  text-align: center;
+}
+
+.book-intro {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.book-form {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid #d5e1db;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 0.5rem 1.5rem rgba(23, 59, 53, 0.08);
+}
+
+.book-form label {
+  margin-top: 0.35rem;
+  color: #173b35;
+  font-weight: 700;
+}
+
+.book-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid #b7cfc1;
+  border-radius: 0.3rem;
+  color: #173b35;
+  background: #fff;
+  font: inherit;
+}
+
+.book-form input:focus-visible {
+  outline: 3px solid rgba(37, 112, 92, 0.25);
+  border-color: #25705c;
+}
+
+.book-form input[aria-invalid='true'] {
+  border-color: #b23b3b;
+}
+
+.booking-error {
+  margin: 0 0 0.25rem;
+  color: #b23b3b;
+  font-size: 0.9rem;
+}
+
+.book-form button {
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: 0;
+  border-radius: 0.3rem;
+  color: #fff;
+  background: #25705c;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.book-form button:hover {
+  background: #1b5948;
+}
+
+.book-form button:focus-visible {
+  outline: 3px solid rgba(37, 112, 92, 0.35);
+  outline-offset: 2px;
+}
+
+.booking-confirmation {
+  margin: 1.25rem 0 0;
+  padding: 1rem;
+  border-left: 4px solid #25705c;
+  border-radius: 0.3rem;
+  color: #173b35;
+  background: #eaf4ee;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .excursion-book {
+    width: min(100% - 1rem, 680px);
+  }
+
+  .book-form {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,71 @@
+.excursion-activities {
+  width: min(100% - 2rem, 960px);
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+}
+
+.excursion-activities h2 {
+  margin-bottom: 0.5rem;
+  color: #173b35;
+  text-align: center;
+}
+
+.activities-intro {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.activities-search-label {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: #173b35;
+  font-weight: 700;
+}
+
+.activities-search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid #b7cfc1;
+  border-radius: 0.3rem;
+  color: #173b35;
+  background: #fff;
+  font: inherit;
+}
+
+.activities-search:focus-visible {
+  outline: 3px solid rgba(37, 112, 92, 0.25);
+  border-color: #25705c;
+}
+
+.activities-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.8rem;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.activity-item {
+  padding: 1rem;
+  border-left: 4px solid #25705c;
+  border-radius: 0.3rem;
+  color: #173b35;
+  background: #eaf4ee;
+}
+
+.activities-empty {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  color: #5a625e;
+  background: #f1f4f2;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .excursion-activities {
+    width: min(100% - 1rem, 960px);
+  }
+}

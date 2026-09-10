@@ -1,0 +1,59 @@
+.excursion-reviews {
+  width: min(100% - 2rem, 680px);
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+  text-align: center;
+}
+
+.excursion-reviews h2 {
+  margin-bottom: 1.25rem;
+  color: #173b35;
+}
+
+.review-card {
+  margin: 0;
+  padding: 1.5rem;
+  border-left: 4px solid #25705c;
+  border-radius: 0.3rem;
+  background: #eaf4ee;
+  text-align: left;
+}
+
+.review-testimonial {
+  color: #173b35;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.review-author {
+  margin-top: 1rem;
+  color: #25705c;
+  font-weight: 700;
+}
+
+.review-button {
+  margin-top: 1.25rem;
+  padding: 0.75rem 1rem;
+  border: 0;
+  border-radius: 0.3rem;
+  color: #fff;
+  background: #25705c;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.review-button:hover {
+  background: #1b5948;
+}
+
+.review-button:focus-visible {
+  outline: 3px solid rgba(37, 112, 92, 0.35);
+  outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+  .excursion-reviews {
+    width: min(100% - 1rem, 680px);
+  }
+}

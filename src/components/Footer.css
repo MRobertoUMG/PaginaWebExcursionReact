@@ -1,0 +1,29 @@
+.excursion-footer {
+  margin-top: auto;
+  padding: 1.5rem 1rem;
+  border-top: 4px solid #b7cfc1;
+  color: #d8eee2;
+  background: #25705c;
+  text-align: center;
+}
+
+.footer-text {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-text strong {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .excursion-footer {
+    padding: 1.25rem 0.75rem;
+  }
+
+  .footer-text {
+    font-size: 0.8rem;
+  }
+}

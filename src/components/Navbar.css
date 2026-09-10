@@ -1,0 +1,65 @@
+.excursion-header {
+  background: #25705c;
+  color: #fff;
+  padding: 22px 0 0;
+}
+
+.excursion-title {
+  display: block;
+  color: #fff;
+  font-size: clamp(1.80rem, 1.5vw, 2.20rem);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.excursion-title:hover,
+.excursion-title:focus {
+  color: #fff;
+}
+
+.excursion-divider {
+  border-top: 2px solid rgba(255, 255, 255, 0.85);
+  margin: 24px 0 20px;
+}
+
+.excursion-link {
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.3;
+  padding: 18px 12px 24px !important;
+  text-align: center;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.excursion-link:hover,
+.excursion-link:focus {
+  color: #e5ffff;
+  opacity: 0.8;
+}
+
+.excursion-toggler {
+  border-color: rgba(255, 255, 255, 0.65);
+  margin: 0 0 12px auto;
+}
+
+.excursion-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.excursion-toggler .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+@media (max-width: 991.98px) {
+  .excursion-header {
+    padding-bottom: 8px;
+  }
+
+  .excursion-link {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 14px 8px !important;
+    text-align: left !important;
+  }
+}
