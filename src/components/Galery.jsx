@@ -3,19 +3,19 @@ import './Galery.css'
 
 const images = [
     {
-        src: './src/assets/images/semuc1.jpg',
+        src: './src/assets/semuc1.jpg',
         alt: 'Pozas turquesas de Semuc Champey',
     },
     {
-        src: './src/assets/images/semuc2.jpg',
+        src: './src/assets/semuc2.jpg',
         alt: 'Vista desde el mirador',
     },
     {
-        src: './src/assets/images/semuc3.jpg',
+        src: './src/assets/semuc3.jpg',
         alt: 'Cueva de Kanba',
     },
     {
-        src: './src/assets/images/semuc4.jpg',
+        src: './src/assets/semuc4.jpg',
         alt: 'Río Cahabón y vegetación',
     },
 ]
