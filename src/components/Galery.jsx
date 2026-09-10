@@ -1,21 +1,25 @@
 import { useEffect, useState } from 'react'
 import './Galery.css'
+import semuc1 from '../assets/semuc1.jpg'
+import semuc2 from '../assets/semuc2.jpg'
+import semuc3 from '../assets/semuc3.jpg'
+import semuc4 from '../assets/semuc4.jpg'
 
 const images = [
     {
-        src: './src/assets/semuc1.jpg',
+        src: semuc1,
         alt: 'Pozas turquesas de Semuc Champey',
     },
     {
-        src: './src/assets/semuc2.jpg',
+        src: semuc2,
         alt: 'Vista desde el mirador',
     },
     {
-        src: './src/assets/semuc3.jpg',
+        src: semuc3,
         alt: 'Cueva de Kanba',
     },
     {
-        src: './src/assets/semuc4.jpg',
+        src: semuc4,
         alt: 'Río Cahabón y vegetación',
     },
 ]
